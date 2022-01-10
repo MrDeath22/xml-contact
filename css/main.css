@@ -1,0 +1,86 @@
+.container {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+   font-family: 'Be Vietnam Pro', sans-serif;
+   padding: 80px 100px;
+   padding-bottom: 0px;
+}
+
+.box {
+   width: 330px;
+   height: 200px;
+   padding: 30px;
+   margin-bottom: 50px;
+   border-radius: 15px;
+   box-shadow: 1px 4px 8px 0px #223c5033;
+   cursor: pointer;
+}
+
+.row {
+   display: flex;
+   align-items: center;
+}
+
+.img {
+   width: 80px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.name {
+   display: block;
+   margin-bottom: 6px;
+}
+
+.contact {
+   margin-top: 30px;
+   margin-bottom: 35px;
+}
+
+.email {
+   margin-left: 10px;
+   opacity: 0.78;
+}
+
+.center {
+   text-align: center;
+}
+
+.del {
+   font-size: 15px;
+   padding: 10px 20px;
+   border-radius: 11px;
+   border: none;
+   color: #fff;
+   background: #FC0200;
+   cursor: pointer;
+}
+
+.wrap {
+   width: 100vw;
+   height: 100%;
+}
+
+.imgg {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 400px;
+   z-index: 10;
+}
+
+.bg {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #00000087;
+   z-index: 5;
+}
+
+.delete {
+   display: none;
+}
